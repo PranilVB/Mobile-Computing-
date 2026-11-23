@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="color_background">#F8F9F7</color>
+    <!-- Surface (cards, sheets) -->
+    <color name="color_surface">#FFFFFF</color>
+    <!-- Primary accent -->
+    <color name="color_primary">#21624F</color>
+    <color name="color_primary_dark">#174837</color>
+    <color name="color_primary_variant">#174837</color>
+    <!-- Text -->
+    <color name="color_text_primary">#202623</color>
+    <color name="color_text_secondary">#65716A</color>
+    <!-- Border / dividers -->
+    <color name="color_border">#E0E6E1</color>
+    <!-- Semantic states -->
+    <color name="color_success">#28724B</color>
+    <color name="color_warning">#94641D</color>
+    <color name="color_error">#B43E3E</color>
+    <!-- On-primary (white text on green) -->
+    <color name="color_on_primary">#FFFFFF</color>
+    <!-- Scrim for dialogs -->
+    <color name="color_scrim">#52000000</color>
+</resources>

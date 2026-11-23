@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_number": "1234567890",
+    "project_id": "your-project-id",
+    "storage_bucket": "your-project-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1234567890:android:abcdef123456",
+        "android_client_info": {
+          "package_name": "com.example.smartqueue"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaFakeKeyForTestingOnly"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        },
+        "analytics_service": {
+          "status": "ENABLED"
+        },
+        "cloud_messaging": {
+          "status": "ENABLED"
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

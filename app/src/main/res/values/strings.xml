@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Smart Queue</string>
+    <string name="app_name_display">SMART QUEUE</string>
+
+    <!-- Auth -->
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="label_full_name">Full name</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_create_account">Create account</string>
+    <string name="btn_sign_out">Sign out</string>
+    <string name="link_create_account">Don\'t have an account? Create one</string>
+    <string name="link_sign_in">Already have an account? Sign in</string>
+    <string name="hint_password_requirements">At least 8 characters</string>
+
+    <!-- Home -->
+    <string name="heading_choose_service">Choose a service</string>
+    <string name="label_active_token">Your active token</string>
+    <string name="label_queue_open">Open</string>
+    <string name="label_queue_closed">Queue closed</string>
+    <string name="label_people_waiting">%d people waiting</string>
+    <string name="label_est_wait_preview">Est. %s</string>
+
+    <!-- Service detail -->
+    <string name="label_queue_status">Queue status</string>
+    <string name="label_people_waiting_count">People waiting</string>
+    <string name="label_estimated_wait">Estimated wait</string>
+    <string name="disclaimer_wait_times">Wait times may change as the queue moves.</string>
+    <string name="btn_get_token">Get token</string>
+
+    <!-- My token -->
+    <string name="title_my_token">My token</string>
+    <string name="label_people_ahead">People ahead</string>
+    <string name="label_now_serving">Now serving</string>
+    <string name="label_updated_just_now">Updated just now</string>
+    <string name="label_updated_at">Updated %s</string>
+    <string name="btn_cancel_token">Cancel token</string>
+
+    <!-- Token statuses -->
+    <string name="status_waiting">Waiting</string>
+    <string name="status_called">Called</string>
+    <string name="status_serving">Serving</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_skipped">Skipped</string>
+    <string name="status_cancelled">Cancelled</string>
+
+    <!-- Status messages -->
+    <string name="msg_token_called">It\'s your turn. Please go to the counter.</string>
+    <string name="msg_token_completed">Service completed.</string>
+    <string name="msg_token_skipped">Your token was skipped and is no longer in the active queue.</string>
+    <string name="msg_token_cancelled">Your token was cancelled and is no longer in the active queue.</string>
+
+    <!-- Empty / error states -->
+    <string name="empty_no_services">No services are available right now.</string>
+    <string name="empty_no_token">You haven\'t joined a queue yet.</string>
+    <string name="btn_browse_services">Browse services</string>
+    <string name="empty_admin_queue">No one is waiting.</string>
+    <string name="label_queue_closed_detail">This queue is currently closed.</string>
+    <string name="label_already_in_queue">You already have an active token for this service.</string>
+    <string name="banner_offline">Offline — queue information may be outdated</string>
+    <string name="label_loading">Loading…</string>
+
+    <!-- Cancel confirmation -->
+    <string name="dialog_cancel_token_title">Cancel token %s?</string>
+    <string name="dialog_keep_token">Keep token</string>
+    <string name="dialog_cancel_token_confirm">Cancel token</string>
+
+    <!-- Admin -->
+    <string name="title_queues">Queues</string>
+    <string name="label_waiting_count">Waiting</string>
+    <string name="label_now_serving_admin">Now serving</string>
+    <string name="btn_call_next">Call next</string>
+    <string name="btn_complete">Complete</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="label_issue_time">Issued %s</string>
+
+    <!-- Profile -->
+    <string name="title_profile">Profile</string>
+    <string name="label_name">Name</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_my_token">My token</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_queues">Queues</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="cd_service_chevron">Open service details</string>
+    <string name="cd_active_token_strip">View your active token</string>
+    <string name="cd_toggle_password_visibility">Toggle password visibility</string>
+    <string name="cd_back">Navigate back</string>
+</resources>

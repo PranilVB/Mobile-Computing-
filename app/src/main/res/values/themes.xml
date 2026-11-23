@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SmartQueue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:colorBackground">@color/color_background</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/color_on_primary</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/color_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/color_surface</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+        <!-- Typography -->
+        <item name="android:fontFamily">sans-serif</item>
+
+        <!-- Shape -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmartQueue.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.SmartQueue.Medium</item>
+
+        <!-- Elevation overlay -->
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+
+    <style name="ShapeAppearance.SmartQueue.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.SmartQueue.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <!-- App bar style — flat, no elevation shadow -->
+    <style name="Widget.SmartQueue.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/color_surface</item>
+        <item name="titleTextColor">@color/color_text_primary</item>
+        <item name="navigationIconTint">@color/color_text_primary</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- Primary button -->
+    <style name="Widget.SmartQueue.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_primary</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Destructive text button -->
+    <style name="Widget.SmartQueue.Button.TextDestructive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/color_error</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="rippleColor">@color/color_error</item>
+    </style>
+
+    <!-- Outlined button -->
+    <style name="Widget.SmartQueue.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_primary</item>
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="Widget.SmartQueue.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/color_surface</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="strokeColor">@color/color_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Token number text appearance -->
+    <style name="TextAppearance.SmartQueue.TokenNumber">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Screen title -->
+    <style name="TextAppearance.SmartQueue.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Section heading -->
+    <style name="TextAppearance.SmartQueue.Section">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Body primary -->
+    <style name="TextAppearance.SmartQueue.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+    </style>
+
+    <!-- Supporting text -->
+    <style name="TextAppearance.SmartQueue.Secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_text_secondary</item>
+    </style>
+
+    <!-- Metadata -->
+    <style name="TextAppearance.SmartQueue.Metadata">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_text_secondary</item>
+    </style>
+
+    <!-- Status labels -->
+    <style name="TextAppearance.SmartQueue.StatusWaiting">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.SmartQueue.StatusCalled">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_success</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.SmartQueue.StatusError">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_error</item>
+    </style>
+
+    <!-- Input field style -->
+    <style name="Widget.SmartQueue.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color_border</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/color_text_secondary</item>
+        <item name="android:textColorHint">@color/color_text_secondary</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+</resources>
